@@ -1,0 +1,26 @@
+{
+	"name": "python-project-pip-and-venv",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.analysis.typeCheckingMode": "strict",
+		"python.linting.enabled": true,
+		"python.linting.lintOnSave": true,
+		"python.linting.pylintEnabled": false,
+		"python.linting.flake8Enabled": true,
+		"python.linting.mypyEnabled": true,
+		"python.linting.banditEnabled": true,
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "black",
+	},
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-azuretools.vscode-docker",
+		"eamodio.gitlens",
+		"donjayamanne.githistory",
+		"usernamehw.errorlens",
+	]
+}
